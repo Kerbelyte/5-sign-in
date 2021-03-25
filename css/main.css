@@ -4,6 +4,7 @@ body * {
     padding: 0;
     vertical-align: top;
     box-sizing: border-box;
+    position: static;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -53,6 +54,19 @@ background-color: burlywood;
     padding: 60px;
     float: left;
     background-color: white;
+    position: relative;
+}
+.close {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 60px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: lightgray;
 }
 .form {
     display: inline-block;
@@ -78,7 +92,7 @@ background-color: burlywood;
 .form > .form-row > input {
     display: inline-block;
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
     border: none;
     line-height: 35px;
     font-size: 18px;
