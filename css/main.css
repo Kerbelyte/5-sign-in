@@ -61,7 +61,7 @@ background-color: burlywood;
 .form > .form-row {
     display: inline-block;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .form > form-row:last-of-type {
@@ -70,9 +70,25 @@ background-color: burlywood;
 .form > .form-row > label {
     display: inline-block;
     width: 100%;
-}
+    text-transform: uppercase;
+    color: grey;
+    }
 .form > .form-row > input {
     display: inline-block;
     width: 100%;
     margin-bottom: 50px;
+    border: 0px;
+    border-bottom: 1px solid grey;
+}
+.button {  
+    background-color: #134cd6;
+    border: none;
+    color: white;
+    padding: 9px 63px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 20px;
 }
