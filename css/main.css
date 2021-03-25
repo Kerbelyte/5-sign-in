@@ -71,24 +71,58 @@ background-color: burlywood;
     display: inline-block;
     width: 100%;
     text-transform: uppercase;
-    color: grey;
-    }
+    color:#777;
+    font-size: 14px;
+    line-height: 20px;
+}
 .form > .form-row > input {
     display: inline-block;
     width: 100%;
     margin-bottom: 50px;
-    border: 0px;
-    border-bottom: 1px solid grey;
+    border: none;
+    line-height: 35px;
+    font-size: 18px;
+    border-bottom: 1px solid#ccc; 
 }
-.button {  
+.form > .form-row > input:focus {
+    background-color: lightgrey;
+    outline: 5px solid red;
+}
+
+.form > .form-row > button {
+    float: left;
     background-color: #134cd6;
     border: none;
     color: white;
-    padding: 9px 63px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
     cursor: pointer;
-    border-radius: 20px;
+    border-radius: 40px;
+}
+
+.form > .form-row > span {
+    float: left;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.form > .form-row > a {
+    float: left;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #134cd6;
+    text-decoration: none;
+}
+.form > .form-row > a:hover {
+    text-decoration: underline;
 }
