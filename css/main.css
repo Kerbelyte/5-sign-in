@@ -9,12 +9,8 @@ body * {
 }
 
 body {
-    background-image: url(../img/hill.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
     height: 100vh;
+    position: relative;
 }
 
 .bg-image {
@@ -24,7 +20,7 @@ body {
     background-image: url(../img/hill.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: bottom center;
     filter: blur(8px);
 }
 
@@ -35,6 +31,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    position: absolute;
 }
 
 .left-column {
